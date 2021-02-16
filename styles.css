@@ -51,13 +51,25 @@ body {
 background-color: gold;
 }
 
-.grid{
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr;
-    
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.50fr 1fr 1fr 0.50fr;
+  
+}    
+.hassan{
+  background-color: crimson;
 }
 
-.footer-grid{
- background-color: chartreuse;
+.main{
+  background-color: cyan;
+}
+
+.copyright{
+  background-color: darkorchid;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 4;
+  grid-row-end:span 1;
 }
