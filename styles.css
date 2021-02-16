@@ -5,7 +5,7 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color:crimson;
   }
   
   .topnav a {
@@ -49,4 +49,15 @@ body {
 
 .footer-flex {
 background-color: gold;
+}
+
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.footer-grid{
+ background-color: chartreuse;
 }
