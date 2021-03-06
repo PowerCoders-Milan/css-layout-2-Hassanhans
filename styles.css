@@ -47,10 +47,6 @@ body {
     text-align: right;
 }
 
-.footer-flex {
-background-color: gold;
-}
-
 .container{
   display: grid;
   height: 100vh;
